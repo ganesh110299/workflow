@@ -2,11 +2,13 @@ name: pushing a file
 on: push
 
 jobs:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - name: push a random file
         run: |
-          git config --global user.email "g.dubbaka@dxc.com"
+        
+          git config --global user.email "g.dubbaka@dxc.com"
 
           git config --global user.name "Dubbaka, Ganesh Maniknata"
 
