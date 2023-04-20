@@ -16,6 +16,6 @@ jobs:
           echo $hi >> random.txt
           git add -A
           git commit -m "random file"
-          git push --set-upstream origin master
+          git push --set-upstream origin main
 
 
