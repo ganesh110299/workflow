@@ -1,50 +1,22 @@
-[1:16 PM] Deepa, Mopuri
-
-
-
-
 name: pushing a file
-
-
-
-
-on:
-
-  push:
+on: push
 
 jobs:
-
-  push:
-
     runs-on: ubuntu-latest
-
     steps:
-
       - name: push a random file
-
         run: |
-
-          pwd
-
-          ls -a
-
-   
-
           git config --global user.email "g.dubbaka@dxc.com"
 
           git config --global user.name "Dubbaka, Ganesh Maniknata"
 
           git checkout master
 
-          ls -a
-
-          echo "hi" >> random.txt
-
-          ls -a
+          echo "hi" > random.txt
 
           git add -A
 
-          git commit -m"random file"
+          git commit -m "random file"
 
           git push --set-upstream origin master
 
