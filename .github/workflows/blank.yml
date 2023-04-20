@@ -16,7 +16,7 @@ jobs:
            git clone https://github.com/ganesh110299/workflow.git
            
           ls
-          cd test
+          cd workflow
           git checkout master
           echo $hi >> random.txt
           git add -A
