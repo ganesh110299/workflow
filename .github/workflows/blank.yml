@@ -1,25 +1,21 @@
-name: pushing a file
-on: push
 
+name: first workflow
+on: push
+#   pull_request:
+#     branches:    
+#       - main
 jobs:
   first-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: push a random file
-        run: |
-        
-          git config --global user.email "g.dubbaka@dxc.com"
-
-          git config --global user.name "Dubbaka, Ganesh Maniknata"
-
-          git checkout master
-
-          echo "hi" > random.txt
-
-          git add -A
-
-          git commit -m "random file"
-
-          git push --set-upstream origin master
+    runs-on: ubuntu-latest
+    steps:
+    - name: print hello
+      run: |
+          git config --global user.email "g.dubbaka@dxc.com" 
+          git config --global user.name "Dubbaka,Ganesh Maniknata"
+          git checkout master
+          echo $hi >> random.txt
+          git add -A
+          git commit -m "random file"
+          git push --set-upstream origin master
 
 
