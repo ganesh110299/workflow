@@ -11,7 +11,7 @@ jobs:
     - name: print hello
       run: |
           git config --global user.email "g.dubbaka@dxc.com" 
-          git config --global user.name "Dubbaka,Ganesh Maniknata"
+          git config --global user.name "ganesh110299"
           git checkout master
           echo $hi >> random.txt
           git add -A
