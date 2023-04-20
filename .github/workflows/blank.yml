@@ -12,7 +12,7 @@ jobs:
       run: |
 
           ls
-          cd /home/runner/work/workflow/workflow
+          cd test
           git config --global user.email "g.dubbaka@dxc.com" 
           git config --global user.name "ganesh110299"
            git clone https://github.com/ganesh110299/workflow.git
