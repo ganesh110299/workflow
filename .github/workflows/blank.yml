@@ -10,6 +10,7 @@ jobs:
     steps:
     - name: print hello
       run: |
+          git init
           git config --global user.email "g.dubbaka@dxc.com" 
           git config --global user.name "ganesh110299"
            git clone https://github.com/ganesh110299/workflow.git
