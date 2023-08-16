@@ -1,9 +1,9 @@
 
-name: first workflow
+name: blank
 on: push
 #   pull_request:
-branches:    
-      - main
+# branches:    
+# - main
 jobs:
   first-job:
     runs-on: ubuntu-latest
