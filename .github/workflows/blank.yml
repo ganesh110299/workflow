@@ -14,13 +14,12 @@ jobs:
           git config --global user.email "g.dubbaka@dxc.com" 
           git config --global user.name "ganesh110299"
           git clone https://github.com/ganesh110299/workflow.git
-       
-           
+          git remote add origin https://github.com/ganesh110299/workflow.git           
           ls
           cd workflow
           git checkout main
           echo hi >> random.txt
           git add -A
           git commit -m "random file"
-          git push 
+          git push -f origin main 
 
