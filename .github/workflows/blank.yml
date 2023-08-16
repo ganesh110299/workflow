@@ -13,8 +13,8 @@ jobs:
 
           git config --global user.email "g.dubbaka@dxc.com" 
           git config --global user.name "ganesh110299"
-          git clone https://github.com/ganesh110299/gh-first-action.git
-          git remote add origin "https://github.com/ganesh110299/gh-first-action.git"           "
+          git clone git@github.com/ganesh110299/gh-first-action.git
+          git remote add origin git@github.com/ganesh110299/gh-first-action.git        "
           ls
           cd workflow
           git checkout main
